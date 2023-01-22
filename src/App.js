@@ -1,9 +1,11 @@
 import './App.css';
+import Keyboard from './Keyboard';
 
 function App() {
   return (
     <main>
-      <p></p>
+      <p id='screen'></p>
+      <Keyboard />
     </main>
   );
 }
